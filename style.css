@@ -1,6 +1,16 @@
 body{
+<<<<<<< HEAD
 	background-color: #F0F8FF;
 }
 h3, h4 {
 	color: #DC143C;
+=======
+	background-color: #99FFCC;
+}
+
+h1, h2: {
+	font-family: Bauhaus;
+	color: #F8F8F8;
+
+>>>>>>> origin/master
 }
