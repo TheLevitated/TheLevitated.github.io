@@ -8,9 +8,19 @@ h3, h4 {
 	background-color: #99FFCC;
 }
 
-h1, h2: {
-	font-family: Bauhaus;
-	color: #F8F8F8;
+h1, {
+	font-family: "Lucida Console";
+	color:#F8F8F6;
+	text-align: center;
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+}
+
+p {
+	font-family: "Times New Roman"
+	color:#0A1A0F;
+	font-size: 20;
 >>>>>>> origin/master
 }
