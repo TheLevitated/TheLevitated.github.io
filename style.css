@@ -1,26 +1,17 @@
 body{
-<<<<<<< HEAD
 	background-color: #F0F8FF;
 }
-h3, h4 {
-	color: #DC143C;
-=======
+h1, {
+	color: #191970;
+	text-align:center;
+}
+h2, h3, h4, h5 {
+	color: #F5FFFA;
 	background-color: #99FFCC;
 }
 
-h1, {
-	font-family: "Lucida Console";
-	color:#F8F8F6;
-	text-align: center;
-
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
+h6, {;
+	color: #191970;
+	text-align:center;
 }
 
-p {
-	font-family: "Times New Roman"
-	color:#0A1A0F;
-	font-size: 20;
->>>>>>> origin/master
-}
