@@ -1,16 +1,17 @@
 body{
 	background-color: #F0F8FF;
 }
-h1, {
+h1{
 	color: #191970;
 	text-align:center;
 }
 h2, h3, h4, h5 {
 	color: #F5FFFA;
 	background-color: #99FFCC;
+	text-align:center
 }
 
-h6, {;
+h6{
 	color: #191970;
 	text-align:center;
 }
