@@ -1,0 +1,75 @@
+a{
+		text-decoration: none;
+}
+
+body{
+	background-color: #F0F8FF;
+	background: url(images/OdeAction.Heckle.2015.cwl&amv.imagecreditMarcoBerardi.12.jpg) repeat center fixed;
+	background-size: 100%;
+}
+
+h1{
+	font-family: Helvetica, sans-serif, 200px;
+	color: #FFF000;
+	text-align: center;
+}    
+nav{
+	margin: 40px;
+	font-family: Helvetica, sans-serif, 50px;
+	color: #000;
+	text-align: center;
+}
+h2, p{ 
+    font-family: garamond, serif, 20px;
+    color: #898989;
+    background: #000000;
+    text-align: center;
+}
+
+h3, h4, h5, h6{ 
+	font-family: "american typewrite", 40px;
+	color: #898999;
+}
+
+.wrapper{
+	width:50px;
+	margin:50px;
+	padding:60px;
+}
+.links{
+	font-weight: 800;
+	background: repeat center center fixed;
+}
+.lists{
+	width:100px;
+	margin:200px;
+	padding:100px;
+	background-color: #000000;
+	font-family: garamond, serif, 60px;
+	color: #898989;
+	font-style: bold, italic;
+	text-align: left;
+}
+.about{
+	width:400px;
+	margin:100px;
+	padding:100px;
+	background-color: #FFF000;
+	font-family: garamond, serif, 30px;
+	color: #898989;
+	font-style: bold, italic;
+	text-align: justify;
+}
+.littlepics{
+	margin: 100px;
+	padding: 100px;
+	position: left;
+}
+#title{
+	margin:60px; 
+	padding:60px;
+	font: Helvetica, sans-serif;
+	color: #FF2200;
+	font-size: 200px;
+	text-align: center;
+}
