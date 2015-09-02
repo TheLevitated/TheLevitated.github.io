@@ -21,14 +21,15 @@ body{
 	background: url(images/OdeAction.Heckle.2015.cwl&amv.imagecreditMarcoBerardi.08.jpg) repeat center fixed;
 	background-size: 100%;
 }
-h1{
+section h1{
 	font-family: 'Orbitron';
 	font-size: 200px;
 	color: #000;
-	text-align: right;
+	text-align: center;
     margin: auto;
 	letter-spacing: -244px;
-	padding: 60px 280px 0px 0px;
+	padding: 60px 0px 0px 875px;
+	position: fixed;
 }
 h2{
 	font-family: 'Orbitron';
@@ -89,6 +90,7 @@ a:hover{
 footer{
 	font-family: 'Scheherazade';
 	letter-spacing: 10px;
+	font-weight: 700;
 	font-size: 16px;
     color: #000;
     text-align: right;
