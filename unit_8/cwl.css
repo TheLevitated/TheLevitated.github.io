@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Scheherazade|Orbitron);
+
+nav a{
+	text-decoration: none;
+	font-family: 'Orbitron';
+	font-size: 12px;
+	color: #000000;
+	margin: 42px;
+	padding-top: 40px;
+	letter-spacing: 2px;
+}
+nav a:hover{
+	color: white;
+}
+header a:hover{
+	color: white;
+}
+body{
+	background-color: #FFF;
+	margin: 9px;
+	background: url(images/OdeAction.Heckle.2015.cwl&amv.imagecreditMarcoBerardi.08.jpg) repeat center fixed;
+	background-size: 100%;
+}
+section h1{
+	font-family: 'Orbitron';
+	font-size: 200px;
+	color: #000;
+/*	text-align: center;*/
+	text-align: right;
+    margin: 100px;
+	letter-spacing: -244px;
+/*	padding: 60px 0px 0px 875px;*/
+/*	position: fixed;*/
+}
+h2{
+	font-family: 'Orbitron';
+	font-size: 12px;
+	color: #898989;
+	margin: -3px;
+	letter-spacing: 10px;
+	background-color: black;
+	background-color: #000;
+}
+
+li{
+	font-family: 'Scheherazade';
+	font-size: 12px;
+	color: #989898;
+	letter-spacing: 3px;
+	text-align: left;
+	list-style: none;
+}
+p{
+	font-family: 'Scheherazade';
+	letter-spacing: 1px;
+	font-size: 1em;
+    color: #000;
+    text-align: center;
+    margin: auto;
+	padding: 0px 3px 0px 0px;
+}
+h3, h5{
+	font-family: 'Scheherazade';
+	font-variant: bold, small-caps;
+	letter-spacing: 7px;
+	font-size: 1em;
+	margin: auto;
+	background-color: white;
+}	
+
+h4{
+	font-family: 'Scheherazade';
+	font-variant: bold, small-caps;
+	letter-spacing: 7px;
+	font-size: 0.75em;
+	margin: auto;
+	background-color: white;
+}
+blockquote{
+	width: 80%;
+	font-family: 'Scheherazade';
+	letter-spacing: 7px;
+	font-size: 1em;
+	font-variant: bold;
+	margin: 60px auto 20px;
+	background-color: white;
+	text-align: justify;
+}
+blockquote{
+	width: 80%;
+	font-family: 'Scheherazade';
+	letter-spacing: 7px;
+	font-size: 16px;
+	font-variant: bold;
+	margin: 60px auto 20px;
+/*	background-color: white;*/
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Scheherazade';
+	letter-spacing: 7px;
+	font-size: 16px;
+	color: #000;
+	margin: auto;
+	background-color: transparent;
+}
+a:hover{
+	color: greenyellow;
+}
+footer{
+	font-family: 'Scheherazade';
+	letter-spacing: 10px;
+	font-weight: 700;
+	font-size: 16px;
+    color: #000;
+    text-align: right;
+    margin: auto;
+	padding: 0px 3px 0px 0px;
+}
+.fixed-nav-bar {
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    position: fixed;
+}
+.lists{
+	width: 270px;
+	margin: 179px 179px 200px;
+	padding: 20px 40px 20px 40px;
+	color: #A59C9C;
+	text-align: center;
+	
+}
+.about{
+	width: 80%;
+	font-family: 'Scheherazade';
+	font-size: 1em;
+	font-variant: bold;
+	margin: 60px auto 20px;
+/*	background-color: white;*/
+	text-align: center;
+}
+#home:hover{
+	color: yellow;
+}
+@media only screen and (max-width: 480px) {
+	blockquote{
+	width: 290px;
+
+}
