@@ -136,6 +136,9 @@ footer{
 	text-align: center;
 	
 }
+.home:hover{
+	color: yellow;
+}
 .about{
 	width: 80%;
 	font-family: 'Scheherazade';
@@ -145,9 +148,7 @@ footer{
 /*	background-color: white;*/
 	text-align: center;
 }
-#home:hover{
-	color: yellow;
-}
+
 @media only screen and (max-width: 480px) {
 	blockquote{
 	width: 290px;
