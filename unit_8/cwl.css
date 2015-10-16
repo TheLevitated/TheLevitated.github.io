@@ -143,6 +143,9 @@ footer{
 .home:hover{
 	color: white;
 }
+.newbackground{
+	background-color: white;
+}
 .test{
 	padding-top: 30px;
 	padding-left: 10%;
@@ -177,9 +180,9 @@ footer{
 	float:left;
 }*/
 .wrap{
-	width: 834px;
-	height: 500px;
-    margin: 0 auto;
+	width: 50%;
+	height: auto;
+    margin: 10% auto;
     background-color: rgb(229, 231, 230);
     display: block;
 /*    border: white 1px solid;*/
@@ -213,10 +216,10 @@ footer{
 
 }*/
 .gallery img{
-	width: 205px;
-    padding: 5%;
-    border: rgba(255, 255, 255, 0);
-    border-style: solid;
+	width: 16%;
+    padding: 4%;
+/*    border: rgba(255, 255, 255, 0);*/
+/*    border-style: solid;*/
 }
 .about{
 	width: 80%;
