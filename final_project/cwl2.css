@@ -15,6 +15,7 @@ body{
   overflow: auto;
 }
 section h1{
+    z-index: 9999;
     font-family: 'Orbitron';
     font-size: 200px;
     color: #000;
@@ -27,15 +28,21 @@ h2{
   font-family: 'Orbitron';
   font-size: 0.9em;
 /*  color: #898989;*/
-  margin: -3px;
+  margin: -1px;
   letter-spacing: 0px;
   text-align: center;
   /* background-color: black; */
-  background-color: rgba(0, 0, 0, 0.71);
+  background-color: black;
   border-radius: 2px;
   font-style: italic;
 }
-
+h2 a{
+  text-align: center;
+  color: black;
+}
+h2 a:hover{
+  color:white;
+}
 li{
   font-family: 'Orbitron';
   font-size: 12px;
@@ -54,7 +61,6 @@ p{
 }
 h3{
   font-family: 'Scheherazade';
-/*  font-variant: bold, small-caps;*/
   font-style: italic;
   letter-spacing: 1px;
   font-size: 0.8em;
@@ -70,14 +76,6 @@ h4{
   font-size: 1em;
   margin: auto;
   background-color: white;
-}
-caption{
-	text-align: center;
-	padding:0 20px;
-	font-family: 'Scheherazade';
-    font-variant: bold, small-caps;
-    color: white;
-
 }
 blockquote{
     width: 300px;
@@ -96,11 +94,13 @@ img{
   height: auto;
   }
 aside{
-    color: #0A0A0A;
-    background-color: rgba(240, 248, 255, 0.44); 
+    color: white;
+/*    color: #0A0A0A;
+    background-color: rgba(240, 248, 255, 0.44); */
+    /* background-color: rgba(240, 248, 255, 0.44); */
     width: 33%;
     margin: 0 54%;
-    padding: 0 1px;
+    padding:0 1px;
     /* margin-top: 20px; */
     font-family: 'Scheherazade';
     letter-spacing: 1px;
@@ -140,11 +140,8 @@ h2 a{
   text-align: center;
   color: black;
 }
-h2 a:hover{
-	color:white;
-}
 a:hover{
-  color: rgba(186, 255,127,1);
+  color: #66FF33;
 }
 
 footer{
@@ -168,14 +165,14 @@ footer{
 }
 .lists{
     font-family: 'Scheherazade';
-    width: 270px;
-    margin: 50px 17%;
+    width: 431px;
+    margin: 50px 10%;
     font-size: 1em;
     padding: 18px -5px 20px 190px;
     text-align: center;
 }
 .exhibitions{
-    width: 80%;
+    width: 84%;
     margin: auto;
     margin-top: 20px;
     color: rgba(204, 61, 204, 0.88);
@@ -270,12 +267,16 @@ footer{
   float: left;
 }
 .container {
+    top: 50px;
+    left: 0;
+    z-index: 9999;
+    position: fixed;
     width: 30%;
     /* padding: 20px; */
     /* border: rgba(31,31,31, 0.88) solid 3px; */
     border-radius: 5px;
 /*    border-top: rgba(31, 31, 31, 0.88) solid 25px;*/
-    background-color: rgba(31, 31, 31, 0.88);
+    background-color: black;
     margin: 20px 10% 50px;
 }
 .slidesjs-pagination-item{
@@ -300,115 +301,9 @@ footer{
 
 #slides{
 }
-/*.rslides_tabs .rslides_here a {
-  background: rgba(255,255,255,.1);
-  color: #fff;
-  font-weight: bold;
-  }
-
-.callbacks_container {
-  margin-bottom: 50px;
-  position: relative;
-  float: left;
-  width: 50%;
-  margin: 0px 17%;
-  border: black solid 15px;
-  border-bottom: black solid 70px;
-  border-radius: 5px;
-  }
-
-
-.callbacks img {
-  display: block;
-  position: relative;
-  z-index: 1;
-  height: auto;
-  width: 100%;
-  border: 0;
-  }
-
-.callbacks .caption {
-  display: block;
-  position: absolute;
-  z-index: 2;
-  font-size: 2px;
-  text-shadow: none;
-  color: #fff;
-  background: white;
-  background: rgba(0,0,0,0);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 10px 20px;
-  margin: 0;
-  max-width: none;
-  }
-
-.callbacks_nav {
-    position: absolute;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    top: 52%;
-    left: 0;
-    opacity: 0.7;
-    z-index: 3;
-    text-indent: -9999px;
-    overflow: hidden;
-    text-decoration: none;
-    height: 61px;
-    width: 38px;
-    background: transparent url("themes/themes.gif") no-repeat left top;
-    margin-top: -45px;
-}
-
-.callbacks_nav:active {
-  opacity: 0;
-  }
-
-.callbacks_nav.next {
-  left: auto;
-  background-position: right top;
-  right: 0;
-  }
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
-
-
-@media screen and (max-width: 600px) {
-  .callbacks_nav {
-    top: 47%;
-    }
-  */}
 
 @media only screen and (max-width: 480px) {
   blockquote{
   width: 290px;
 }
+

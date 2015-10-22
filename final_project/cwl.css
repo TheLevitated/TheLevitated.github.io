@@ -7,7 +7,8 @@
 }
 body{
   font-size: 16px;
-   background: url(images/cwl.02.jpg) repeat center fixed; 
+   background: url(images/OdeAction.Heckle.2015.cwl&amv.imagecreditMarcoBerardi.08.jpg) repeat center fixed;
+/*   background: url(images/cwl.02.jpg) repeat center fixed; */
 /*      background: url(images/375940_4471694068029_1187996201_n.jpg) repeat center fixed; */
 /*   background: url(images/farewellblackfield.jpg) repeat center fixed; */
 /* background: url(images/spacewrapper.jpg) repeat center fixed;*/
@@ -18,6 +19,7 @@ body{
   overflow: auto;
 }
 section h1{
+    z-index: 9999;
     font-family: 'Orbitron';
     font-size: 200px;
     color: #000;
@@ -30,11 +32,11 @@ h2{
   font-family: 'Orbitron';
   font-size: 0.9em;
 /*  color: #898989;*/
-  margin: -3px;
+  margin: -1px;
   letter-spacing: 0px;
   text-align: center;
   /* background-color: black; */
-  background-color: rgba(0, 0, 0, 0.71);
+  background-color: black;
   border-radius: 2px;
   font-style: italic;
 }
@@ -80,9 +82,9 @@ h4{
   background-color: white;
 }
 blockquote{
-    width: 300px;
-    height: 300px;
-    margin: 60px 16% 60px;
+    width: 350px;
+    height: 350px;
+    margin: 60px 13% 60px;
     border-radius: 180px;
     font-family: 'Orbitron';
     color: rgba(255, 137, 137, 0.55);
@@ -167,14 +169,14 @@ footer{
 }
 .lists{
     font-family: 'Scheherazade';
-    width: 270px;
-    margin: 50px 17%;
+    width: 431px;
+    margin: 50px 10%;
     font-size: 1em;
     padding: 18px -5px 20px 190px;
     text-align: center;
 }
 .exhibitions{
-    width: 80%;
+    width: 84%;
     margin: auto;
     margin-top: 20px;
     color: rgba(204, 61, 204, 0.88);
@@ -269,12 +271,16 @@ footer{
   float: left;
 }
 .container {
+    top: 50px;
+    left: 0;
+    z-index: 9999;
+    position: fixed;
     width: 30%;
     /* padding: 20px; */
     /* border: rgba(31,31,31, 0.88) solid 3px; */
     border-radius: 5px;
 /*    border-top: rgba(31, 31, 31, 0.88) solid 25px;*/
-    background-color: rgba(31, 31, 31, 0.88);
+    background-color: black;
     margin: 20px 10% 50px;
 }
 .slidesjs-pagination-item{
