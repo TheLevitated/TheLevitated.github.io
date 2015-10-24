@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-size: 16px;
+  font-size: 20px;
 /*   background: url(images/cwl.jpg) repeat center fixed; */
 /*      background: url(images/375940_4471694068029_1187996201_n.jpg) repeat center fixed; */
 /*   background: url(images/farewellblackfield.jpg) repeat center fixed; */
@@ -107,7 +107,7 @@ aside{
     /* margin-top: 20px; */
     font-family: 'Scheherazade';
     letter-spacing: 1px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 500;
     text-align: justify;
     border-radius: 3px;
@@ -133,7 +133,7 @@ a{
   text-align: left;
   font-family: 'Scheherazade';
   letter-spacing: 7px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: rgba(255,255,255, 0.42);
   text-align: center;
   margin: 1%;
@@ -143,7 +143,7 @@ h2 a{
   text-align: center;
   color: black;
 }
-a:hover{
+a:hover{-----
   color: #66FF33;
 }
 
@@ -163,6 +163,7 @@ footer{
     z-index: 9999;
     width: 100%;
     height: 0px;
+    color:     rgba(255,255,255, 0.42);
     text-align: center;
     position: fixed;
 }
@@ -170,7 +171,7 @@ footer{
     font-family: 'Scheherazade';
     width: 30%;
     margin: 50px 10%;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 18px -5px 20px 190px;
     text-align: center;
 }
