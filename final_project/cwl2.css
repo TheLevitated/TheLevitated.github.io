@@ -140,7 +140,7 @@ h2 a{
   text-align: center;
   color: black;
 }
-a:hover{-----
+a:hover{
   color: #66FF33;
 }
 
@@ -183,8 +183,6 @@ footer{
     font-weight: 500;
     padding: 30px;
     text-align: justify;
-
-
 }
 .home:hover{
   color: white;
