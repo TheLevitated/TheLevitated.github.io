@@ -78,6 +78,16 @@ h4{
   margin: auto;
   background-color: white;
 }
+iframe{
+  top: 50px;
+  left: 0;
+  z-index: 9999;
+  position: fixed;
+  width: 30%;
+  border-radius: 5px;
+/*  background-color: black;*/
+  margin: 20px 10% 50px;
+}
 blockquote{
     width: 350px;
     height: 350px;
@@ -274,11 +284,11 @@ footer{
     z-index: 9999;
     position: fixed;
     width: 30%;
-    /* padding: 20px; */
+     padding: 20px; 
     /* border: rgba(31,31,31, 0.88) solid 3px; */
     border-radius: 5px;
 /*    border-top: rgba(31, 31, 31, 0.88) solid 25px;*/
-    background-color: black;
+/*    background-color: black;*/
     margin: 20px 10% 50px;
 }
 .slidesjs-pagination-item{
